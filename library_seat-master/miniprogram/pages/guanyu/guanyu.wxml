@@ -1,0 +1,13 @@
+<!--pages/guanyu/guanyu.wxml-->
+<view class="container">
+  <view class="imagecontainer1">
+    <image class="image1" src="http://img5.imgtn.bdimg.com/it/u=1355388186,98202887&fm=26&gp=0.jpg"/>
+  </view>
+  <view class="imagecontainer2">
+    <image class="image2" src="http://img2.imgtn.bdimg.com/it/u=2201017045,2749109489&fm=26&gp=0.jpg"/>
+  </view>
+  <view class="textcontainer">
+    <text>西南林业大学（Southwest Forestry University），简称“西林”，坐落于春城昆明市，为国家林业局和云南省政府省部共建大学；是一所以林学学科为主，生物环境类学科为特色，农、理、工、文、法、管、教等学科交叉发展的大学；入选国家“中西部高校基础能力建设工程”,“卓越工程师教育培养计划”、“卓越农林人才教育培养计划”。</text>
+  </view>
+</view>
+  

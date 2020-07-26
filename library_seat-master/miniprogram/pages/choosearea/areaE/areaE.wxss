@@ -1,0 +1,65 @@
+page{
+  background-color: #F5FFFA;
+}
+
+.A{
+  width: 33rpx;
+  border: 0.5px solid black;
+  height: 40rpx;
+  border-radius: 3rpx;
+  font-size: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgb(194, 166, 11);
+}
+
+ .B{
+  display: flex;
+  width: 12rpx;
+  border: 0.5px solid black;
+  height: 12rpx;
+  border-radius: 2rpx;
+  font-size: 10rpx;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+ }
+
+.c01{
+  background-color: lightgrey  
+}
+
+.c02{
+  background-color: red
+}
+
+.c03{
+  background-color: orange
+}
+
+ #ix001{
+  top: 0rpx;
+  left: -12.5rpx;
+ }
+
+  #ix002{
+  top: 28rpx;
+  left: -12.5rpx;
+ }
+
+  #ix003{
+  top: 0rpx;
+  left: 32.5rpx;
+ }
+
+  #ix004{
+  top: 28rpx;
+  left: 32.5rpx;
+ }
+
+ #dsk01{
+  top: 100rpx;
+  left: 120rpx;
+ }

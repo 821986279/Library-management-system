@@ -1,0 +1,19 @@
+<view class='list_box' wx:for='{{list}}' wx:key='this' wx:for-item='parentItem' wx:for-index='parentIndex' >
+    <view class='list'>
+        <view class='list_name_box' catchtap='listTap' data-parentindex='{{parentIndex}}'>
+            <text class='list_item_name' >{{parentItem.listName}}</text>
+            <image src='' class='icon_down {{parentItem.show&&"icon_down_rotate"}}'></image>
+        </view>
+        <view class='list_item_box' wx:if='{{parentItem.show}}'>
+            <view class='list_item' wx:for='{{parentItem.item}}' wx:key='this' catchtap='listItemTap' data-index='{{index}}'  data-parentindex='{{parentIndex}}'>
+                <view class='list_item_name_box'>
+                    <text class='list_item_name'>{{item.itemName}}</text>
+                    <image src='' class='icon_down {{item.show&&"icon_down_rotate"}}'></image>
+                </view>
+                <view class='other_box' wx:if='{{item.show}}'>
+                </view>
+            </view>
+        </view>
+    </view> 
+</view>
+

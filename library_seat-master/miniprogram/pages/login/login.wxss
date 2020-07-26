@@ -1,0 +1,59 @@
+.container{
+  height: 1500rpx;
+  background-image: url("http://img1.imgtn.bdimg.com/it/u=3187770941,150755846&fm=26&gp=0.jpg");
+  background-repeat: no-repeat;
+  background-size: 170rpx;
+  background-position-x: 50%;
+  background-position-y: 15%;
+  background-color: white;
+}
+
+.first{
+   
+}
+
+.A{
+  height: 50rpx;
+  position: absolute;
+  top: 30%;
+  left:34%;
+  color: green;
+}
+
+.B{
+  height: 100rpx;
+  color:green;
+  position: absolute;
+  top: 600rpx;
+  left: 25%;
+}
+
+.C{
+  height: 50rpx;
+  width: 400rpx;
+  background-color:rgb(230, 248, 240);
+  font-style:italic; 
+}
+
+.D{
+  
+  color:green;
+  position: absolute;
+  top: 730rpx;
+  left: 25%;
+}
+
+.E{
+   height: 35rpx;
+   width: 400rpx;
+   background-color: rgb(230, 248, 240);
+   font-style:italic; 
+}
+
+.F{
+  height: 50rpx;
+  width: 200rpx;
+  position: absolute;
+  top: 870rpx;
+  left: 36%;
+}

@@ -1,0 +1,22 @@
+{
+  "cloud": true,
+  "pages": [
+      "pages/login/login",
+      "pages/cover/cover",
+      "pages/firstpages/firstpages",
+      "pages/guanyu/guanyu",
+      "pages/choosearea/areaA/areaA",
+      "pages/choosearea/areaB/areaB",
+      "pages/choosearea/areaC/areaC",
+      "pages/choosearea/areaD/areaD"
+  ],
+  "window": {
+    "backgroundColor": "#AAAAAA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E0EBAF",
+    "navigationBarTitleText": "预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tarbar": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/firstpages/firstpages",
+    "pages/choosearea/areaA/areaA"
+  ],
+  "navigationBarBackgroundColor": "#FCFCFC",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "201室",
+  "backgroundColor": "#FCFCFC",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

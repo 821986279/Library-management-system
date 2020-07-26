@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/firstpages/firstpages",
+    "pages/choosearea/areaC/areaC"
+  ],
+  "navigationBarBackgroundColor": "#BBBBBB",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "C区",
+  "backgroundColor": "#AAAAAA",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,32 @@
+<!--pages/cover/cover.wxml-->
+<!--pages/cover/cover.wxml-->
+  <swiper indicator-dots="true" autoplay="true" interval="5000">
+    <swiper-item>
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1445612527,3164662091&fm=26&gp=0.jpg"/>
+      </swiper-item>
+    <swiper-item>
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=141798959,3693415905&fm=26&gp=0.jpg"/>
+      </swiper-item>
+    <swiper-item>
+      <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3832107707,1422152402&fm=26&gp=0.jpg"/>
+      </swiper-item>
+  </swiper>
+
+
+<view class="text-container">
+  <text class="chinese" >欢迎来到西南林业大学图书馆预约系统</text>
+  <view class="english">Welcome to Southerwest Forestry  University library reservation system</view>
+</view>
+
+<view class="container">
+  
+  
+  <view catchtap="onTapJump" class="yuyue-container">
+    <button class="yuyue" hover-class="btn-yuyue">预约</button>
+  </view>
+
+  <view catchtap="onTapJumpguanyu"class="guanyu-container">
+    <button class="guanyu" hover-class="btn-guanyu">关于</button>
+  </view>
+
+</view>

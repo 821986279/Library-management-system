@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/choosearea/areaE/areaE"
+  ],
+  "navigationBarBackgroundColor": "#FCFCFC",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "305室",
+  "backgroundColor": "#FCFCFC",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

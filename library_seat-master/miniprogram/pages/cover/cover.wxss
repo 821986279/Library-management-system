@@ -1,0 +1,87 @@
+/* pages/cover/cover.wxss */
+/* pages/cover/cover.wxss */
+page{
+  height: 100%;
+  background-color: lightgrey;
+}
+swiper{
+  width:100%;
+  height:500rpx;
+}
+
+swiper image{
+  width:100%;
+  height:500rpx;
+}
+
+.text-container{
+  width:100%;
+  font-style: initial;
+  border-radius: 5%;
+  background-color: rgb(201, 188, 195)
+
+}
+
+.yuyue-container{
+  margin-top:200rpx;
+  left:85rpx;
+  width:190rpx;
+  height:20rpx;
+  border-radius:25%;
+  text-align:center;
+  color:rgb(26, 5, 5);
+  font-weight: bold;
+  font-size: 50rpx;
+  line-height: 40rpx;
+}
+
+.guanyu-container{
+  margin-top:200rpx;
+  margin-left:120rpx;
+  width:190rpx;
+  height:20rpx;
+  border-radius:25%;
+  text-align:center;
+  color:rgb(26, 5, 5);
+  font-weight: bold;
+  font-size: 50rpx;
+  line-height: 40rpx;
+}
+
+
+text{
+  font-family: Microsoft YaHei;
+}
+
+.container{
+  width:100%;
+  height:100%;
+  background-color: lightgrey;
+}
+
+.chinese{
+  font-family: SimSun;
+  font-size: 43rpx;
+  color: black;
+}
+
+.english{
+  font-size: 30rpx;
+  font-family: Microsoft YaHei;
+}
+
+.guanyu{
+  background-color:rgb(235, 235, 223);
+}
+
+.yuyue{
+  background-color:rgb(235, 235, 223);
+}
+
+.btn-yuyue{
+  background-color: lightgrey;
+}
+
+.btn-guanyu{
+  background-color: lightgrey;
+}

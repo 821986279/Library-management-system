@@ -1,0 +1,30 @@
+<view style='height:1250rpx; width:750rpx; background-color:#F5FFFA'>
+  <movable-area scale-area="{{true}}" style="height:800rpx; width:750rpx;background-color:#F5FFFA">
+    <movable-view class='container' direction="all" out-of-bounds="flase" scale="{{true}}" x="{{x}}" y="{{y}}" scale-max="{{scalemax}}">
+      <template is='surlyfour' data="{{...deskinfo[0]}}"/>
+    </movable-view>
+  </movable-area>
+  <view wx:if="{{userinfo.condition==0}}">
+    <view class='post1'>
+      请选择想要预约的座位,红色为已被选择的座位
+    </view>
+  </view>
+  <view wx:if="{{userinfo.condition==1}}" >
+    <view class='post1'>
+    已选择 {{userinfo.reserve[0]}}室 {{userinfo.reserve[1]}}号桌 {{userinfo.reserve[2]}}号位
+    </view>
+    <view class='post2' catchtap='determine'>
+    确认预约
+    </view>
+  </view>
+</view>
+
+<template name='surlyfour'>
+ <view class="A" id="dsk01" >
+      1号桌
+        <view class="{{c01}}" id="ix001" catchtap="choose" data-class="B c01" data-id='01' data-pos="dsk01" >1</view>
+        <view class="B c01" id="ix002" catchtap="choose" data-class="B c01" data-id='02' data-pos="dsk01" >2</view>
+        <view class="B c01" id="ix003" catchtap="choose" data-class="B c01" data-id='03' data-pos="dsk01" >3</view>
+        <view class="B c01" id="ix004" catchtap="choose" data-class="B c01" data-id='04' data-pos="dsk01" >4</view>
+      </view>
+</template>

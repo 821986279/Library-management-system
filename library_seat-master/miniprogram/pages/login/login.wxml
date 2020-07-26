@@ -1,0 +1,18 @@
+<view class="container">
+<view class="first">
+<form>
+  <text class="A">智慧图书馆登录</text>
+  <view class="B">
+  <label>用户名</label>
+  <input class="C" type="text" name="username"  placeholder="请输入用户名"  bindinput="usernameinput"></input>
+  </view>
+  <view class="D">
+  <label>密码</label>
+  <input class="E" type="password" name="password" placeholder="请输入密码"  bindinput="passwordinput"></input>
+  </view>
+  <view catchtap="onTapJumpcover" class="F">
+  <button form-type="submit"><text>登录</text></button>
+  </view>
+</form>
+</view>
+</view>
